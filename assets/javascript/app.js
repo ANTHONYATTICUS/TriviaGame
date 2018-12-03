@@ -35,9 +35,7 @@ var questionDisplay = function() {
     for (var q = 0; q < 3; q++) {
         $('.questions').prepend('<div class="' + questions[q].name + '"></div>');
         $(questions[q].divClass).append('<div class ="ques-title">' + questions[q].ques + '</div>');
-        for (var i = 0; i <= 3; i++) {
-            $(questions[q].divClass).append('<input type="radio"  name="' + questions[q].name + '" value="' + questions[q].ans[i] + '"/><label for="' + labels[i] + '">' + questions[q].ans[i] + '</label>');
-        }
+
         $('.questions').prepend('<hr />');
     }
 }
