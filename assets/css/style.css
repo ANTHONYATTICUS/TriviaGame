@@ -1,0 +1,47 @@
+body {
+    background-color: black;
+    font-family: sans-serif;
+    color: white;
+}
+
+
+#jumbotron {
+    width: 100%;
+    height: 50%;
+    margin: 0 auto;
+}
+
+.box-1 {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 25%; 
+}
+
+header {
+    font-size: 60px;
+    color: white;
+    margin-top: 2%;
+}
+
+
+h1 {
+    font-size: 50px;
+    color: white;
+}
+s
+
+body .container {
+    height: 100%;
+    text-align: center;
+    display: none;
+    margin-bottom: 5%;
+    padding-bottom: 2%;
+    margin-top: 5%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.questions {
+    font-size: 25px;
+}
+
